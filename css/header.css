@@ -1,0 +1,67 @@
+header {
+    min-width: 1000px;
+    height: 80px;
+    background-color: #3b5998;
+    color: white;
+}
+
+.header-container {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+.logo-container {
+    float: left;
+}
+
+#logo {
+    margin: 0;
+    padding-top: 5px;
+    font-size: 42px;
+    font-weight: bolder;
+}
+
+.login-container {
+    float: right;
+    width: 40%;
+}
+
+.login-container label {
+    font-size: 12px;
+    padding-bottom: 4px;
+}
+
+.login-container input {
+    width: 95%;
+}
+
+.login-left, .login-middle {
+    width: 43%;
+}
+
+.login-right {
+    width: 14%;
+}
+
+.login-left,
+.login-middle,
+.login-right,
+.login-left label,
+.login-middle label {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.login-right button {
+    margin-top: 19px;
+    border-color: #444;
+    background-color: #3b5998;
+    color: #fff;
+}
+
+#forgot-account {
+    padding-top: 4px;
+    font-size: 12px;
+    color: #9cb4d8;
+}

@@ -1,0 +1,145 @@
+main {
+    min-width: 1000px;
+    background-color: #edf0f5;
+}
+
+.main-container {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+
+.intro, .signup {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.intro {
+    width: 58%;
+}
+
+.intro-header {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    line-height: 1.4em;
+}
+
+.intro-content {
+    list-style: none;
+    padding: 0;
+}
+
+.intro-content li {
+    margin-top: 10px;
+}
+
+.intro-content div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.intro-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    background-color: lightgrey;
+}
+
+.content-emphasis {
+    margin-right: 10px;
+}
+
+.signup {
+    width: 42%;
+}
+
+.free {
+    margin-top: 3px;
+    margin-bottom: 15px;
+}
+
+.signup input[type="text"], .signup input[type="password"] {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid lightgrey;
+    border-radius: 0.2rem;
+    margin-bottom: 10px;
+}
+
+.input-full {
+    width: 100%
+}
+
+.input-half {
+    width: 48%;
+}
+
+.signup select {
+    padding: 6px;
+    margin-right: -4px;
+}
+
+.why {
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 12px;
+    line-height: 1.2em;
+    vertical-align: middle;
+}
+
+.gender {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#gender-male {
+    margin-left: 15px;
+}
+
+.submit-button {
+    margin-top: 17px;
+    padding: 8px 28px;
+    background-color: #69a74e;
+    color: #fff;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: 1px solid grey;
+    line-height: 1.2rem;
+}
+
+.float-right {
+    float: right;
+}
+
+.hr {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #ddd;
+}
+
+.bold {
+    font-weight:bold;
+}
+
+/* TODO: Style for the entire page below. This needs to be removed from main.css */
+
+body {
+    /* 'Raleway' font family */
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #365899;
+}

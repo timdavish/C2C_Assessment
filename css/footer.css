@@ -1,0 +1,43 @@
+footer {
+    min-width: 1000px;
+    background-color: #fff;
+    font-size: 12px;
+}
+
+.footer-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.languages {
+    list-style: none;
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 0;
+}
+
+.languages li {
+    display: inline;
+    margin-right: 7px;
+}
+
+.show-more-languages {
+    border: 1px solid #ddd;
+    padding: 3px 8px;
+}
+
+table td {
+    width: 85px;
+}
+
+.hr {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #ddd;
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: 10px;
+    color: grey;
+}

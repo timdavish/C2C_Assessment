@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>C2C Web Take-Home Assessment</title>
+    
+    <!-- css -->
+    <link type="text/css" rel="stylesheet" href="css/main.css" />
+    <link type="text/css" rel="stylesheet" href="css/header.css" />
+    <link type="text/css" rel="stylesheet" href="css/footer.css" />
+    <!-- /css -->
+    
+    <!-- js -->
+    <script type="text/javascript" src="js/index.js"></script>
+    <!-- /js -->
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-container">
+                <h1 id="logo">facebook</h1>
+            </div>
+            <form class="login-container">
+                <!-- These divs don't have line breaks between them so that
+                     they are not rendered with a space between them. This
+                     is a quick fix making it easier for me to size them.
+                 -->
+                <div class="login-left">
+                    <label for="login-user-field">Email or Phone</label>
+                    
+                    <input type="text" name="login-user-field" />
+                </div><div class="login-middle">
+                    <label for="login-password-field">Password</label>
+
+                    <input type="password" name="login-password-field" />
+                    
+                    <a href id="forgot-account">Forgot account?</a>
+                </div><div class="login-right">
+                    <button type="submit">Log In</button>
+                </div>
+            </form>
+        </div>
+    </header>
+    
+    <main>
+        <div class="main-container">
+            <!-- These divs don't have line breaks between them so that
+                 they are not rendered with a space between them. This
+                 is a quick fix making it easier for me to size them.
+             -->
+            <div class="intro">
+                <h2 class="intro-header bold">
+                    Connect with friends and the<br />world around you on Facebook.
+                </h2>
+                
+                <ul class="intro-content">
+                    <li>
+                        <div class="intro-img"></div>
+                        <div>
+                            <span class="bold content-emphasis">See photos and updates</span> from friends in News Feed.
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <div class="intro-img"></div>
+                        <span class="bold content-emphasis">Share what's new</span> in your life on your Timeline.
+                    </li>
+                    
+                    <li>
+                        <div class="intro-img"></div>
+                        <span class="bold content-emphasis">Find more</span> of what you're looking for with Facebook Search.
+                    </li>
+                </ul>
+            </div><div class="signup">
+                <form>
+                    <h1 class="bold">Sign Up</h1>
+                    <h3 class="free">It's free and always will be.</h3>
+                    
+                    <input type="text" placeholder="First name" class="input-half" />
+                    <input type="text" placeholder="Last name" class="input-half float-right" />
+                    <input type="text" placeholder="Mobile number or email" class="input-full" />
+                    <input type="password" placeholder="New password" class="input-full" />
+                    
+                    <h3>Birthday</h3>
+                    <select id="month">
+                        <<option value="" selected>Aug</option>
+                    </select>
+                    <select id="day">
+                        <option value="" selected>23</option>
+                    </select>
+                    <select id="year">
+                        <<option value="" selected>1999</option>
+                    </select>
+                    <div class="why"><a href>Why do I need to provide my<br />birthday?</a></div>
+                    
+                    <div class="gender">
+                        <input type="radio" name="gender" id="gender-female" />
+                        <label for="gender-female">Female</label>
+                        
+                        <input type="radio" name="gender" id="gender-male" />
+                        <label for="gender-male">Male</label>
+                    </div>
+                    
+                    <p>
+                        By clicking Create Account, you agree to our 
+                        <a href>Terms</a> and that you have read our 
+                        <a href>Data Policy</a>, including our 
+                        <a href>Cookie Use</a>. You may receive SMS Notifications
+                        from Facebook and can opt out at any time.
+                    </p>
+                    
+                    <button type="submit" class="submit-button">Create Account</button>
+                    
+                    <div class="hr"></div>
+
+                    <a href>Create a Page</a> for a celebrity, band or business.
+                </form>
+            </div>
+        </div>
+
+    </main>
+    
+    <footer>
+        <div class="footer-container">
+            <ul class="languages">
+                <li><a href>English (US)</a></li>
+                <li><a href>Spanish</a></li>
+                <li><a href>French</a></li>
+                <li><a href>Chinese</a></li>
+                <li><a href>Arabic</a></li>
+                <li><a href>Portuguese</a></li>
+                <li><a href>Italian</a></li>
+                <li><a href>Korean</a></li>
+                <li><a href>German</a></li>
+                <li><a href>Hindi</a></li>
+                <li><a href>Japanese</a></li>
+                <li><a href class="show-more-languages">+</a></li>
+            </ul>
+            
+            <div class="hr"></div>
+            
+            <table>
+                <tr>
+                    <td><a href>Sign Up</a></td>
+                    <td><a href>Log In</a></td>
+                    <td><a href>Messenger</a></td>
+                    <td><a href>Facebook Lite</a></td>
+                    <td><a href>Mobile</a></td>
+                    <td><a href>Find Friends</a></td>
+                    <td><a href>People</a></td>
+                    <td><a href>Pages</a></td>
+                    <td><a href>Places</a></td>
+                    <td><a href>Games</a></td>
+                    <td><a href>Locations</a></td>
+                </tr><tr>
+                    <td><a href>Celebrities</a></td>
+                    <td><a href>Marketplace</a></td>
+                    <td><a href>Groups</a></td>
+                    <td><a href>Recipes</a></td>
+                    <td><a href>Sports</a></td>
+                    <td><a href>Moments</a></td>
+                    <td><a href>Instagram</a></td>
+                    <td><a href>About</a></td>
+                    <td><a href>Create Ad</a></td>
+                    <td><a href>Create Page</a></td>
+                    <td><a href>Developers</a></td>
+                </tr><tr>
+                    <td><a href>Careers</a></td>
+                    <td><a href>Privacy</a></td>
+                    <td><a href>Cookies</a></td>
+                    <td><a href>Ad Choices</a></td>
+                    <td><a href>Terms</a></td>
+                    <td><a href>Help</a></td>
+                </tr>
+            </table>
+            
+            <div class="copyright"><span>Facebook &copy; 2017</span></div>
+        </div>
+    </footer>
+</body>
+</html>
